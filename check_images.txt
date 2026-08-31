@@ -1,0 +1,28 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: No, all the three models produced different breed classification for dog in Dog_01.jpg. Resnet has classified it as Bull Mastiff , AlexNet has classified it as Golden Retriever whereas the VGG has classified it correctly as Labrador Retriever which is the correct breed.
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: No, all the three models shown different result except Vgg which shown the same result for both and for each the detail is given below
+
+ResNet  : Dog_1 is Bull Mastiff and Dog_2 is Labrador Retriever
+AlexNet : Dog_1 is Golden Retriever and Dog_2 is Labrador Retriever
+Vgg     : Dog_1 is Labrador Retriever and Dog_2 is Labrador Retriever
+
+Hence, Vgg was the only model that remained consistent and gave the same result when the image was flipped horizontally.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes all the three models accurately classified the Cat and Coffee mug image as not a dog.
+However the ResNet classified the cat as the red fox whereas AlexNet as a Hare, in contrast the Vgg classified the cat accurately as Egyptian cat or cat correctly. All the three models have classified the coffee mug as expresso.
+In conclusion even the ResNet and AlexNet were unable to classify the species of the cat still they have marked it accurately as the non-dog image. So, all the three models have classified accurately the dog and the non-dog images.
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: On the basis of the results, it is evident the VGG model has outperformed the other models because it has successfully and accurately classified both original and horizontally flipped images of dog as the Labrador Retriever. Similarly it has accurately identified the image of the cat and has successfully differentiated the dog and non-dog objects. So, in comprison with other models Vgg has performed better overall with 100% accuracy for classifying dog and non-dog and with 93.3% accuracy in classifying the dogs breed. 
