@@ -115,6 +115,8 @@ The dog used in the experiment is a **Labrador Retriever**.
 
 This experiment reinforced the conclusion that **VGG was the most accurate and consistent model** for this task.
 
+Detailed observations from the custom-image experiment are available in [`docs/uploaded_image_analysis.txt`](docs/uploaded_image_analysis.txt).
+
 ## Project Structure
 
 ```text
@@ -122,6 +124,7 @@ dog_image_classification_project/
 │
 ├── README.md
 ├── .gitignore
+├── .gitattributes
 ├── requirements.txt
 │
 ├── check_images.py
@@ -155,6 +158,7 @@ dog_image_classification_project/
 │       └── vgg_uploaded-images.txt
 │
 └── docs/
+    └── uploaded_image_analysis.txt
 ```
 
 ## Core Files
@@ -172,22 +176,14 @@ dog_image_classification_project/
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
-cd dog_image_classification_project
+git clone https://github.com/MUHAMMAD-HUZAIFA-RIZWAN/cnn-dog-breed-classifier.git
+cd cnn-dog-breed-classifier
 ```
 
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
-```
-
-A minimal `requirements.txt` can contain:
-
-```text
-torch
-torchvision
-Pillow
+python -m pip install -r requirements.txt
 ```
 
 ## Running the Project
@@ -268,7 +264,7 @@ results/uploaded_images/
 This project demonstrates:
 
 - working with pretrained CNN architectures,
-- image classification with transfer learning,
+- image classification using pretrained CNN models,
 - Python dictionaries and mutable data structures,
 - command-line argument handling,
 - file and string processing,
