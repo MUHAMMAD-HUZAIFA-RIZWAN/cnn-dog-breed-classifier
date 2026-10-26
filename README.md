@@ -275,7 +275,7 @@ This project demonstrates:
 - accuracy-vs-runtime trade-offs,
 - model robustness testing using image transformations.
 
-## Educational Project Attribution
+## Project Attribution
 
 This project was completed as part of Udacity's **AI Programming with Python** coursework.
 
