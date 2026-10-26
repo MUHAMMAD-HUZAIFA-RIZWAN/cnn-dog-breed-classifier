@@ -222,6 +222,7 @@ vgg
 ```bash
 sh run_models_batch.sh
 ```
+> **Windows note:** The `.sh` batch scripts require a Unix-compatible shell such as Git Bash or WSL. They will not run directly in standard PowerShell unless a compatible shell is installed.
 
 Example outputs are stored in:
 
