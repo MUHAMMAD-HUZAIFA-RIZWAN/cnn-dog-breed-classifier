@@ -1,14 +1,14 @@
 #!/bin/sh
-# */AIPND-revision/intropyproject-classify-pet-images/run_models_batch_uploaded.sh
-#                                                                             
-# PROGRAMMER: Jennifer S.
-# DATE CREATED: 02/08/2018                                  
-# REVISED DATE: 02/27/2018  - 
-# PURPOSE: Runs all three models to test which provides 'best' solution on the Uploaded Images.
-#          Please note output from each run has been piped into a text file.
 #
-# Usage: sh run_models_batch_uploaded.sh    -- will run program from commandline within Project Workspace
-#  
-python check_images.py --dir uploaded_images/ --arch resnet  --dogfile dognames.txt > resnet_uploaded-images.txt
-python check_images.py --dir uploaded_images/ --arch alexnet --dogfile dognames.txt > alexnet_uploaded-images.txt
-python check_images.py --dir uploaded_images/ --arch vgg  --dogfile dognames.txt > vgg_uploaded-images.txt
+# PROGRAMMER: Jennifer S. (Udacity starter file)
+# DATE CREATED: 02/08/2018
+# REVISED DATE: 02/27/2018
+# MODIFIED BY: Muhammad Huzaifa Rizwan
+# MODIFIED DATE: 26/10/2026
+# PURPOSE: Runs all three models on the uploaded images.
+#          Output from each run is stored in results/uploaded_images/.
+#
+
+python check_images.py --dir uploaded_images/ --arch resnet  --dogfile dognames.txt > results/uploaded_images/resnet_uploaded-images.txt
+python check_images.py --dir uploaded_images/ --arch alexnet --dogfile dognames.txt > results/uploaded_images/alexnet_uploaded-images.txt
+python check_images.py --dir uploaded_images/ --arch vgg  --dogfile dognames.txt > results/uploaded_images/vgg_uploaded-images.txt
