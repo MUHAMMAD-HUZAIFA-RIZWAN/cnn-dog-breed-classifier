@@ -123,6 +123,7 @@ Detailed observations from the custom-image experiment are available in [`docs/u
 cnn-dog-breed-classifier/
 │
 ├── README.md
+├── LICENSE
 ├── .gitignore
 ├── .gitattributes
 ├── requirements.txt
@@ -295,3 +296,10 @@ It reached:
 - **87.5% overall label-match accuracy**
 
 Although VGG required more runtime than ResNet and AlexNet, its superior accuracy and stronger consistency on the custom-image experiment made it the best model for this classification task.
+
+## License
+
+This repository includes Udacity starter/course material licensed under the MIT License.
+
+See [`LICENSE`](LICENSE) for details.
+
