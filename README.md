@@ -120,7 +120,7 @@ Detailed observations from the custom-image experiment are available in [`docs/u
 ## Project Structure
 
 ```text
-dog_image_classification_project/
+cnn-dog-breed-classifier/
 │
 ├── README.md
 ├── .gitignore
