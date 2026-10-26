@@ -1,0 +1,7 @@
+# Keep shell scripts compatible with Unix/Linux
+*.sh text eol=lf
+
+# Normalize source and documentation files
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
